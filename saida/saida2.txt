@@ -1,0 +1,147 @@
+Por: Eryka Freires
+ 2018-04-18 20:46:58.635839 
+
+Quantidade de iterações:  50
+----> Base da Dados:  coluna_vertebral_2C.txt 
+
+Executando os algoritmos ...
+Classes: [1 2]
+
+Resultados KNN:  10  
+Acurácia: 0.843225806452  | Desvio Padrão: 0.0381737088838  | Maior Acerto:  0.91935483871
+Matriz de Confusão da Maior Taxa:
+ [[[42  3]
+  [ 2 15]]] 
+
+
+Resultados DMC: 
+Acurácia: 0.754193548387  | Desvio Padrão: 0.0604836559136  | Maior Acerto:  0.887096774194
+Matriz de Confusão da Maior Taxa:
+ [[[38  7]
+  [ 0 17]]] 
+
+
+Resultados Naive Bayes: 
+Acurácia: 0.779032258065  | Desvio Padrão: 0.0514361894165  | Maior Acerto:  0.870967741935
+Matriz de Confusão da Maior Taxa:
+ [[[36  5]
+  [ 3 18]]] 
+
+----> Base da Dados:  coluna_vertebral_3C.txt 
+
+Executando os algoritmos ...
+Classes: [1 2 3]
+
+Resultados KNN:  16  
+Acurácia: 0.833225806452  | Desvio Padrão: 0.0580295593699  | Maior Acerto:  0.951612903226
+Matriz de Confusão da Maior Taxa:
+ [[[ 7  0  2]
+  [ 0 37  0]
+  [ 0  1 15]]] 
+
+
+Resultados DMC: 
+Acurácia: 0.765483870968  | Desvio Padrão: 0.0541906681262  | Maior Acerto:  0.887096774194
+Matriz de Confusão da Maior Taxa:
+ [[[ 9  0  1]
+  [ 0 31  1]
+  [ 5  0 15]]] 
+
+
+Resultados Naive Bayes: 
+Acurácia: 0.807419354839  | Desvio Padrão: 0.0490715038183  | Maior Acerto:  0.935483870968
+Matriz de Confusão da Maior Taxa:
+ [[[11  1  0]
+  [ 0 36  0]
+  [ 3  0 11]]] 
+
+----> Base da Dados:  iris.txt 
+
+Executando os algoritmos ...
+Classes: [1 2 3]
+
+Resultados KNN:  17  
+Acurácia: 0.966666666667  | Desvio Padrão: 0.0312694383988  | Maior Acerto:  1.0
+Matriz de Confusão da Maior Taxa:
+ [[[10  0  0]
+  [ 0  9  0]
+  [ 0  0 11]]] 
+
+
+Resultados DMC: 
+Acurácia: 0.926666666667  | Desvio Padrão: 0.0410960933531  | Maior Acerto:  1.0
+Matriz de Confusão da Maior Taxa:
+ [[[13  0  0]
+  [ 0  9  0]
+  [ 0  0  8]]] 
+
+
+Resultados Naive Bayes: 
+Acurácia: 0.960666666667  | Desvio Padrão: 0.0331260219968  | Maior Acerto:  1.0
+Matriz de Confusão da Maior Taxa:
+ [[[ 6  0  0]
+  [ 0  8  0]
+  [ 0  0 16]]] 
+
+----> Base da Dados:  dermatologia.txt 
+
+Executando os algoritmos ...
+Classes: [1 2 3 4 5 6]
+
+Resultados KNN:  15  
+Acurácia: 0.755277777778  | Desvio Padrão: 0.0530613725723  | Maior Acerto:  0.847222222222
+Matriz de Confusão da Maior Taxa:
+ [[[16  0  0  0  0  1]
+  [ 0  9  0  1  0  0]
+  [ 0  1 16  0  0  0]
+  [ 0  4  0  5  0  0]
+  [ 2  0  0  2 11  0]
+  [ 0  0  0  0  0  4]]] 
+
+
+Resultados DMC: 
+Acurácia: 0.495277777778  | Desvio Padrão: 0.0624604813334  | Maior Acerto:  0.625
+Matriz de Confusão da Maior Taxa:
+ [[[18  0  0  3  0  1]
+  [ 0  2  1  1  1  4]
+  [ 0  0 12  2  0  1]
+  [ 1  2  2  4  0  3]
+  [ 2  0  0  1  2  2]
+  [ 0  0  0  0  0  7]]] 
+
+
+Resultados Naive Bayes: 
+Acurácia: 0.7225  | Desvio Padrão: 0.0601881053423  | Maior Acerto:  0.888888888889
+Matriz de Confusão da Maior Taxa:
+ [[[24  0  0  0  0  0]
+  [ 0 16  0  0  0  0]
+  [ 0  0 15  0  0  0]
+  [ 0  6  0  0  0  0]
+  [ 0  2  0  0  5  0]
+  [ 0  0  0  0  0  4]]] 
+
+
+----> Base da Dados:  breast_cancer.txt 
+
+Executando os algoritmos ...
+Classes: [2 4]
+
+Resultados KNN:  10  
+Acurácia: 0.969197080292  | Desvio Padrão: 0.0127509703523  | Maior Acerto:  0.992700729927
+Matriz de Confusão da Maior Taxa:
+ [[[89  1]
+  [ 0 47]]] 
+
+
+Resultados DMC: 
+Acurácia: 0.965547445255  | Desvio Padrão: 0.0136197416522  | Maior Acerto:  0.992700729927
+Matriz de Confusão da Maior Taxa:
+ [[[89  1]
+  [ 0 47]]] 
+
+
+Resultados Naive Bayes: 
+Acurácia: 0.648613138686  | Desvio Padrão: 0.0337036632617  | Maior Acerto:  0.70802919708
+Matriz de Confusão da Maior Taxa:
+ [[[97  0]
+  [40  0]]] 
